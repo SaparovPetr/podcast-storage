@@ -1,0 +1,14 @@
+:root {
+    --main-font: raleway;
+    --accent-font:'STIX Two Text';
+    --bg-color: #F3EFEC;
+    --text-color: #312A4E;
+    --accent-color: #FFAB6B;
+}
+
+/*1. Для включения темы переопределяются переменные*/
+.theme_dark {
+    --bg-color: #171717;
+    --text-color: #b3b3b3;
+    --accent-color: transparent;
+}

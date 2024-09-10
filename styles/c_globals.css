@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+blockquote,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+}
+
+/*сброс фокусов -> */
+a:focus,
+button:focus {
+  outline: none;
+}
+
+/*установка клавиатурных фокусов -> */
+a:focus-visible,
+button:focus-visible {
+  outline: 1px solid currentColor;
+}
+
+/*кнопка в неактивном состоянии не нажимается -> */
+button:disabled {
+  pointer-events: none;
+}
